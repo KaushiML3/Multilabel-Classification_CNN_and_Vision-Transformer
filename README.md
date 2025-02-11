@@ -22,10 +22,16 @@ The dataset used for training contains 16170 images of  8 different clothing cat
 
 This repository contains resources for training a deep learning model to multi-label classification. It includes two main Jupyter notebooks for model training, each implementing a distinct architecture:
 
-1. [Custom Architecture Notebook]() : This notebook demonstrates the use of a custom-built neural network architecture tailored specifically for multi-label classification. Designed for flexibility and simplicity, the custom architecture allows for experimentation and adaptation to varying datasets.
-Model inference:
-![image](https://github.com/KaushiML3/Multilabel-Classification_CNN_and_Vision-Transformer/blob/main/src_img/cnn.png)
+1. [Custom Architecture Notebook](https://github.com/KaushiML3/Multilabel-Classification_CNN_and_Vision-Transformer/blob/main/notebooks/multi_label_classification_(Sequence_input).ipynb) :
+     This notebook demonstrates the use of a custom-built neural network architecture tailored specifically for multi-label classification. Designed for flexibility and simplicity, the custom architecture allows for experimentation and adaptation to varying datasets.
 
-3. [VIT Architecture Notebook]() : In this notebook, I'll show how one can fine-tune any pre-trained vision model from the Transformers library for multi-label image classification.[refference](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/SigLIP/Fine_tuning_SigLIP_and_friends_for_multi_label_image_classification.ipynb)
-Model inference:
-![image](https://github.com/KaushiML3/Multilabel-Classification_CNN_and_Vision-Transformer/blob/main/src_img/sliglip.png)
+  Model inference:
+
+  ![image](https://github.com/KaushiML3/Multilabel-Classification_CNN_and_Vision-Transformer/blob/main/src_img/cnn.png)
+
+3. [VIT Architecture Notebook](https://github.com/KaushiML3/Multilabel-Classification_CNN_and_Vision-Transformer/blob/main/notebooks/multi-label-image-classification_VIT(SigLIP).ipynb) :
+      In this notebook, I'll show how one can fine-tune any pre-trained vision model from the Transformers library for multi-label image classification.[refference](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/SigLIP/Fine_tuning_SigLIP_and_friends_for_multi_label_image_classification.ipynb)
+   
+  Model inference:
+  
+  ![image](https://github.com/KaushiML3/Multilabel-Classification_CNN_and_Vision-Transformer/blob/main/src_img/sliglip.png)
